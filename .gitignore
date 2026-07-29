@@ -9,6 +9,7 @@ module*.pdf
 general*.pdf
 General Requirements.pdf
 The Linux Programming Interface.pdf
+*.heml
 講義/
 
 
