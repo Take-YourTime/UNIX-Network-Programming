@@ -6,7 +6,7 @@ Textbook Link: [The Linux Programming Interface](https://broman.dev/download/The
 
 ## Overview
 
-以下是本專案中所有作業 (HW) 的內容與主題簡介：
+以下是所有本課程作業的內容簡介：
 
 | Assignment | Topic / Content | Description |
 | :---: | --- | --- |
