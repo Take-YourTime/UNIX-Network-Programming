@@ -1,6 +1,6 @@
 # UNIX Network programming
 
-UNIX Network programming course assignments at NSYSU in spring, 2026  
+This repository contains assignments from the UNIX Network Programming course, including exercises on common Linux system calls and the use of ZeroMQ.
 
 Textbook Link: [The Linux Programming Interface](https://broman.dev/download/The%20Linux%20Programming%20Interface.pdf)
 
@@ -23,3 +23,5 @@ Textbook Link: [The Linux Programming Interface](https://broman.dev/download/The
 | **HW11** | **ZeroMQ (Part 1)** | IPC/TCP 伺服器架構與 Worker 模型 |
 | **HW12** | **ZeroMQ (Part 2)** | 進階訊息佇列機制實作 |
 | **HW13** | **ZeroMQ (Part 3)** | Broker 與 Dispatcher 派發模式實作 |
+
+Mar. 2026 ~ Jan. 2026
