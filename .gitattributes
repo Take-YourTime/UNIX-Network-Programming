@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude exported reports from GitHub language statistics
+HW5/*.html linguist-documentation
