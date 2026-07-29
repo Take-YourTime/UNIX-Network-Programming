@@ -2,7 +2,30 @@
 
 2026*.pdf
 Chapter*.pdf
+Ch*.pdf
+hw*.pdf
+Homework*.pdf
+module*.pdf
+general*.pdf
+General Requirements.pdf
+The Linux Programming Interface.pdf
+講義/
 
 
+# ReadMe file
 
 ReadMe.pdf
+
+# Others
+
+*.zip
+*.exe
+*.o
+*.out
+
+# IDE & Config files
+.vscode/
+.vs/
+*.sqlite
+*.db
+*.vsidx
