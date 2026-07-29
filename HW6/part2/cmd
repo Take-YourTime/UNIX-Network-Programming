@@ -1,0 +1,80 @@
+demo
+
+echo Start Simple Shell!
+
+echo
+
+echo id
+id
+
+echo
+
+echo hostname
+hostname
+
+echo
+
+echo builtin
+builtin
+
+echo
+
+echo builtin hostname
+builtin hostname
+
+echo
+
+echo builtin abc
+builtin abc
+
+echo
+
+echo pwd
+pwd
+
+echo
+
+echo cd demo
+cd demo
+
+echo
+
+echo pwd
+pwd
+
+echo
+
+echo ls -la
+ls -la
+
+echo 
+
+echo cat 123
+cat 123
+
+echo
+
+echo cat 123 > mess
+cat 123 > mess
+
+echo
+
+echo cat mess
+cat mess
+
+echo
+
+echo cat mess | sort -u
+cat mess | sort -u
+
+echo
+
+echo cat mess | sort -u | sort -u
+cat mess | sort -u | sort -u
+
+echo
+
+echo wc -l < mess
+wc -l mess
+
+quit

@@ -1,0 +1,14 @@
+[Testing steps]
+
+# compile
+make
+
+
+# printf the command result to terminal
+./myprc
+<any command you want>
+
+
+# printf the command result to terminal
+./myprc -f <filename>
+<any command you want>
