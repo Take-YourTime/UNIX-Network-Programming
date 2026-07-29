@@ -2,4 +2,4 @@
 * text=auto
 
 # Exclude exported reports from GitHub language statistics
-HW5/*.html linguist-documentation
+*.html linguist-documentation
