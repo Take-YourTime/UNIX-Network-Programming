@@ -24,4 +24,4 @@ Textbook Link: [The Linux Programming Interface](https://broman.dev/download/The
 | **HW12** | **ZeroMQ (Part 2)** | 進階訊息佇列機制實作 |
 | **HW13** | **ZeroMQ (Part 3)** | Broker 與 Dispatcher 派發模式實作 |
 
-Mar. 2026 ~ Jan. 2026
+Mar. 2026 ~ Jun. 2026
