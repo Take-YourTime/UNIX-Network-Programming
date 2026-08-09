@@ -7,14 +7,18 @@
 #include <string.h>
 #include "dict.h"
 
-int lookup(Dictrec * sought, const char * resource) {
-	Dictrec dr;
-	static FILE * in;
+// Declare in dict.h
+// 	sought: sought->word is the word to be looked up in dictionary; 
+// 	        sought->text is the text associated with the word, if found.
+// 	resource: the dictionary file name 
+int lookup(DictRec* sought, const char* resource) {
+	DictRec dr;
+	static FILE* in;
 	static int first_time = 1;
 
 	if (first_time) { 
 		first_time = 0;
-		/* open up the file
+		/* open up the dictionary file
 		 *
 		 * Fill in code. */
 		in = fopen(resource, "r");
@@ -23,11 +27,12 @@ int lookup(Dictrec * sought, const char * resource) {
 		}
 	}
 
-	/* read from top of file, looking for match
+	/* read from top of dictionary file, looking for match
 	 *
 	 * Fill in code. */
-	rewind(in);
-	while(fread(&dr, sizeof(Dictrec), 1, in) == 1) {
+	rewind(in); // Reset file pointer to the beginning of the file
+	
+	while(fread(&dr, sizeof(DictRec), 1, in) == 1) {
 		/* Fill in code. */
 		if (strcmp(dr.word, sought->word) == 0) {
 			strcpy(sought->text, dr.text);

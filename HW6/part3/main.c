@@ -18,8 +18,8 @@
 #include <stdlib.h>
 #include "dict.h"
 
-int main(int argc, char **argv) {
-	Dictrec tryit;
+int main(int argc, char** argv) {
+	DictRec tryit; // the word input by the user, which is to be looked up in the dictionary
 
 	if (argc != 2) {
 		fprintf(stderr,"Usage : %s <resource>\n",argv[0]);

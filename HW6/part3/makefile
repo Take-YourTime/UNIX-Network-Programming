@@ -31,4 +31,6 @@ test: all
 
 clean:
 	rm -f $(TARGETS) myfixrec
+	rm -f $(TARGETS) file_lookup
+	rm -f $(TARGETS) convert
 	

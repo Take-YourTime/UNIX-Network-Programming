@@ -23,9 +23,9 @@
 typedef struct {
   char word[WORD];
   char text[TEXT];
-} Dictrec;
+} DictRec; // Dictionary Record
 
-int lookup(Dictrec * ,const char *);
+int lookup(DictRec * ,const char *);
 
 /* used in fifo and message queue examples */
 typedef struct {
@@ -48,5 +48,5 @@ typedef struct {
 /* Template for the layout of shared memory */
 typedef struct {
   int numrec;
-  Dictrec table[1];
+  DictRec table[1];
 } Memory;
