@@ -178,11 +178,9 @@ B113040045 許育菖
     **目標**：支援 pipe command。
     
     **實做方法**：先透過`pipe_present.c`偵測command中是否有`|`，當 argv 中存在 `|` 時，先將指令切成左右兩部分，再建立 pipe 並 `fork()` left pid 與 right pid。left pid 將輸出導向 pipe write-end；right pid 則將輸入接到 pipe read-end，並遞迴執行剩餘的 command，以完成 `cmd1 | cmd2 | cmd3` 的效果。
+
     
-
 ### **Part 3**
-
-// TODO!!!!!!!!!!!!!!!!!!
 
 此部分主要實作 dictionary lookup project，先將原始 dictionary 轉成 fixed-length record file，再以 linear search 的方式查詢單字。
 
